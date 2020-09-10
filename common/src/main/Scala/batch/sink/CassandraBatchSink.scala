@@ -3,6 +3,9 @@ package batch.sink
 import config.ApplicationConfiguration
 import org.apache.spark.sql.{DataFrame, SaveMode}
 
+/**
+  * It saves the dataframe's data into a Cassandra table.
+  */
 class CassandraBatchSink extends BatchSink {
     private val keyspaceName = ApplicationConfiguration.getCassandraSinkConfig().ks
     private val tableName = ApplicationConfiguration.getCassandraSinkConfig().table

@@ -1,8 +1,9 @@
 package config
 
 import com.typesafe.config.ConfigFactory
-//import scala.collection.JavaConverters._
-
+/**
+  * a Singleton class to read the config file a map it to config objects
+  */
 object ApplicationConfiguration extends Serializable {
   case class CassandraSourceConfig(ks : String, table : String)
   case class CassandraSinkConfig(ks : String, table : String)//, columns : List[String])

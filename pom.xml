@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>common</module>
-        <module>transactions-generator</module>
+        <module>data-generators</module>
     </modules>
 
     <properties>

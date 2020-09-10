@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>transactions-generator</artifactId>
+    <artifactId>data-generators</artifactId>
 
     <dependencies>
         <dependency>
